@@ -12,7 +12,7 @@ const data = [
   {
     id: 1,
     category: "uiux",
-    // image: Image1,
+    image: Image1,
     title: "Pizza Planet",
     desc: "Pizza Planet's app lets employees track and update customer orders and menus, while customers can order delivery/pickup, view menus, add items to carts, and pay for orders.",
     demo: "http://egatortutorials.com",
@@ -21,7 +21,7 @@ const data = [
   {
     id: 2,
     category: "frontend",
-    // image: Image2,
+    image: Image2,
     title: "PantryPal",
     desc: "PantryPal helps users manage their virtual pantry, search for groceries, and create grocery lists using the Instacart API. It also allows users to find recipes based on the ingredients they have in their pantry.",
     demo: "http://egatortutorials.com",
@@ -39,7 +39,7 @@ const data = [
   {
     id: 4,
     category: "uiux",
-    // image: Image4,
+    image: Image4,
     title: "Tenmo Money Transfer",
     desc: "Tenmo allows users to send money to each other and check a user's balance. The application incorporates MVC, DAO, and REST API and uses HTTP requests to udate into and retrieve data from a RDBMS.",
     demo: "http://egatortutorials.com",
