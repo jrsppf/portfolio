@@ -21,7 +21,7 @@ const data = [
   {
     id: 2,
     category: "frontend",
-    image: Image2,
+    image: Image1,
     title: "PantryPal",
     desc: "PantryPal helps users manage their virtual pantry, search for groceries, and create grocery lists using the Instacart API. It also allows users to find recipes based on the ingredients they have in their pantry.",
     demo: "http://egatortutorials.com",
