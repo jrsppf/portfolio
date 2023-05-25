@@ -1,14 +1,14 @@
-import { useEffect } from 'react'
-import HeaderImage from '../../assets/header.jpg'
-import data from './data'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-import './header.css'
+import { useEffect } from "react";
+import HeaderImage from "../../assets/header.jpg";
+import data from "./data";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "./header.css";
 
 const Header = () => {
   useEffect(() => {
-    AOS.init({duration: 2000})
-  }, [])
+    AOS.init({ duration: 2000 });
+  }, []);
 
   return (
     <header id="header">
@@ -16,12 +16,15 @@ const Header = () => {
         <div className="header__profile" data-aos="fade-in">
           <img src={HeaderImage} alt="Header Portait" />
         </div>
-        <h3  data-aos="fade-up">Jacob Schreiber</h3>
-        <p  data-aos="fade-up">
-        You are a click away from building your dream website or web app. Send me the details of your project for a modern, mobile responsive, highly performant website today!
+        <h3 data-aos="fade-up">Jacob Schreiber</h3>
+        <p data-aos="fade-up">
+          Hi there, I'm Jacob, your next Software Engineer who is determined to
+          make a positive impact on your team.
         </p>
-        <div className="header__cta"  data-aos="fade-up">
-          <a href="#contact" className='btn primary'>Let's Talk</a>
+        <div className="header__cta" data-aos="fade-up">
+          <a href="#contact" className="btn primary">
+            Let's Talk
+          </a>
           {/* <a href="#portfolio" className='btn light'>My Work</a> */}
         </div>
         {/* <div className="header__socials">
@@ -31,7 +34,7 @@ const Header = () => {
         </div> */}
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
