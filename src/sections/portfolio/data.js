@@ -13,19 +13,19 @@ const data = [
     id: 1,
     category: "uiux",
     image: Image1,
+    title: "Where My Friends Eat",
+    desc: "Where My Friends Eat is a MERN app that allows users to create posts to review restaurants and follow friends and use their posts to inform where to eat tonight.",
+    // demo: "http://egatortutorials.com",
+    github: "https://github.com/jrsppf/where-my-friends-eat",
+  },
+  {
+    id: 2,
+    category: "uiux",
+    image: Image2,
     title: "Pizza Planet",
     desc: "Pizza Planet's app lets employees track and update customer orders and menus, while customers can order delivery/pickup, view menus, add items to carts, and pay for orders.",
     // demo: "http://egatortutorials.com",
     github: "https://github.com/jrsppf/pizza-planet",
-  },
-  {
-    id: 2,
-    category: "frontend",
-    image: Image2,
-    title: "Pizzadelphia",
-    desc: "Pizzadelphia allows for rating, reviewing, and tracking a blogger’s pizza experiences in Philadelphia. The project is being built with React, Java Spring Boot, and PostgreSQL.",
-    // demo: "http://egatortutorials.com",
-    github: "https://github.com/jrsppf/pantry-pal",
   },
   {
     id: 3,
@@ -36,6 +36,7 @@ const data = [
     // demo: "http://egatortutorials.com",
     github: "https://github.com/jrsppf/SpotTop",
   },
+
   {
     id: 4,
     category: "uiux",
@@ -80,6 +81,16 @@ const data = [
     desc: "Tenmo allows users to send money to each other and check a user's balance. The application incorporates MVC, DAO, and REST API and uses HTTP requests to udate into and retrieve data from a RDBMS.",
     // demo: "http://egatortutorials.com",
     github: "https://github.com/jrsppf/java-venmo-clone",
+  },
+
+  {
+    id: 9,
+    category: "frontend",
+    image: Image2,
+    title: "Pizzadelphia",
+    desc: "Pizzadelphia allows for rating, reviewing, and tracking a blogger’s pizza experiences in Philadelphia. The project is being built with React, Java Spring Boot, and PostgreSQL.",
+    // demo: "http://egatortutorials.com",
+    github: "https://github.com/jrsppf/pantry-pal",
   },
   //   {
   //     id: 9,
